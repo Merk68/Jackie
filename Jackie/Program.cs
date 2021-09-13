@@ -30,6 +30,16 @@ namespace Jackie
 
     private static void NegyedikFeladat()
     {
+      int maxEv = 0, maxRace = 0;
+      foreach (var l in lista)
+      {
+        if (l.Races > maxRace)
+        {
+          maxRace = l.Races;
+          maxEv = l.Year;
+        }
+      }
+      Console.WriteLine("4. Feladat. {0}",maxEv);
     }
 
     private static void HarmadikFeladat()
