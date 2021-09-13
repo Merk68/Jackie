@@ -34,6 +34,8 @@ namespace Jackie
 
     private static void HarmadikFeladat()
     {
+      Console.WriteLine("3. Feladat: {0}", lista.Count());
+
     }
 
     private static void MasodikFeladat()
