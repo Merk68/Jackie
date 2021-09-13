@@ -25,7 +25,18 @@ namespace Jackie
     }
 
     private static void OtodikFeladat()
-    {  
+    {
+      //Két változó az évtizedeknek = 0
+      //Végigmegyünk az adatokon
+      //megnézzük, hogy melyik évtized majd hozzáadjuk a megfelelő évtizedhez.
+      int hatvanas = 0, hetvenes = 0;
+      foreach (var l in lista)
+      {
+        if (l.Year == hatvanas)
+        {
+
+        }
+      }
     }
 
     private static void NegyedikFeladat()
